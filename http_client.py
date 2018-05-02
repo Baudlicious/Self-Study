@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# A Program that makes requests to a website and pulls the page contents through a URL or by specifying 
+# a socket, it also will grab andisplay headers.
+# Author: x3830s
+# Date: May 01, 2018
+
 import argparse
 import requests
 import json 
@@ -23,7 +29,9 @@ parser.add_argument('-p', '--port', help="Specify a port number")
 parser.add_argument('-c', '--content', action="store_true", help="Grab page content")
 
 argument  = parser.parse_args()
+
 print("\t\t\tx3830s Simple HTTP client")
+
 # GET request for the HTTP req client
 if argument.url: 
      double_line()
@@ -51,7 +59,4 @@ if argument.url:
 else:
     print("Must supply a url\n")
     parser.print_usage()
-
-
-
 
