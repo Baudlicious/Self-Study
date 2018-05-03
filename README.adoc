@@ -1,1 +1,25 @@
-# Pentester-Lab-Bootcamp
+# Pentester Lab Bootcamp
+A collection of small programs and scripts created to complete the 15 Pentester Lab Bootcamp exercises.
+
+## Week One
+
+.*Practical Tasks:*
+
+* [x] Install Linux on a virtualisation system 
+* [x] Learn the basics of a scripting language 
+
+.*Reading:*
+
+* [ ] Hypertext Transfer Protocol
+* [ ] Domain Name System
+* [ ] Whois
+* [ ] Network Socket
+* [ ] Scoping a Pentest
+
+.*Week's Summary:*
+This week was fairly straight forward, install a simple, non-infosec related Linux distribution on our chosen virtualization platform. For this I personally chose __*Manjaro*__ as I'm fairly comfortable with an Arch Linux based distrobution. I also used VMware workstation Pro to host my guest virtual machine(VM) on my host computer running Windows 10.
+
+ 
+## Week Two
+Week two required the installation of Apache to our selected Linux VM
+__http_client.py__
