@@ -1,4 +1,6 @@
-# Pentester Lab Bootcamp
+= Pentester Lab Bootcamp
+x3830s
+
 A collection of small programs and scripts created to complete the 15 Pentester Lab Bootcamp exercises.
 
 ## Week One
@@ -10,11 +12,11 @@ A collection of small programs and scripts created to complete the 15 Pentester 
 
 .*Reading:*
 
-* [ ] Hypertext Transfer Protocol
-* [ ] Domain Name System
-* [ ] Whois
-* [ ] Network Socket
-* [ ] Scoping a Pentest
+* [x] Hypertext Transfer Protocol
+* [x] Domain Name System
+* [x] Whois
+* [x] Network Socket
+* [x] Scoping a Pentest
 
 .*Week's Summary:*
 This week was fairly straight forward, install a simple, non-infosec related Linux distribution on our chosen virtualization platform. For this I personally chose __*Manjaro*__ as I'm fairly comfortable with an Arch Linux based distrobution. I also used VMware workstation Pro to host my guest virtual machine(VM) on my host computer running Windows 10.
