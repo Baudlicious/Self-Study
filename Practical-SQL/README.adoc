@@ -1,0 +1,8 @@
+= Practical-SQL
+
+This repository serves as a collection of notes created from working through the book _Practical SQL_ by _Anthony DeBarros_ published by _No Starch Press_. This page serves as a brief summary followed by a link to a more in depth set of notes based around the queries and exercises. It also serves as a method of becoming more proficient with the _Asciidoc_ markup language. 
+
+== https://github.com/x3830s/Practical-SQL/blob/master/ch1_teachers.adoc[Chapter 1]
+The goal of this chapter was to create a database called *_analysis_* and insert values into a table called *_teachers_*. The main focus was on learning how to use the pgAdmin interface and the query tool as well as learning how to use *CREATE* and *INSERT*.
+
+== https://github.com/x3830s/Practical-SQL/blob/master/ch2_select.adoc[Chapter 2 - Beginning Data Exploration With Select]
