@@ -77,4 +77,32 @@ for character in message.upper():
 pprint.pprint(count)
 
 
+# Data structures
+
+cat = {'name': 'Zophie', 'age': 7, 'color': 'gray'}
+all_cats = []
+all_cats.append({'name': 'Pooka', 'age': 5, 'color': 'black'})
+all_cats.append({'name': 'Fat-tail', 'age': 5, 'color': 'gra)y'})
+all_cats.append({'name': '???', 'age': 5, 'color': 'orange'})
+print(all_cats)
+
+# Tic tac toe example how dictionaries can be used to model real objects
+import pprint
+the_board = {'top-L': ' ', 'mid-M': 'X', 'low-L': ' ', 'low-R': ' ', 'top-M': ' ', 'mid-R': ' ', 'low-M': ' ', 'top-R': ' ', 'mid-L': ' '}
+
+pprint.pprint(the_board)
+
+the_board['mid-M'] = ' '
+pprint.pprint(the_board)
+
+the_board['mid-M'] = 'X'
+def print_board(board):
+    print(board['top-L'] + '|' + board['top-M'] + '|' + board['top-R'])
+    print('-+-+-')
+    print(board['mid-L'] + '|' + board['mid-M'] + '|' + board['mid-R'])
+    print('-+-+-')
+    print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
+    
+print_board(the_board)
+
 
