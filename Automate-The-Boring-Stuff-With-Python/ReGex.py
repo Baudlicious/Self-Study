@@ -101,5 +101,22 @@ mo = bat_regex.search('The Adventures of Batwowowowowowoman')
 print(mo.group())
 
 # match a specific number of times
-ha_regex = re.compile(r'(Ha) {3}')
+ha_regex = re.compile(r'(Ha){3}')
 print(ha_regex.search('He said "HaHaHa"'))
+# At least 3:
+ha_regex = re.compile(r'(Ha){3,}')
+print(ha_regex.search('He said "HaHaHa"'))
+
+# greedy matching
+digit_regex = re.compile(r'(\d){3,5}')
+print(digit_regex.search('1234567890'))
+# Non greedy
+digit_regex = re.compile(r'(\d){3,5}?')
+print(digit_regex.search('1234567890'))
+
+
+# Findall
+phone_regex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+#print(phone_regex.findall(text)) finds all the numbers in a specific variable
+
+
