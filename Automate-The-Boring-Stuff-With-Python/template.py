@@ -11,8 +11,6 @@ def sep(title, function):
     print('[ + ] ' + title.title())
     print("-" * 80 +"\n")
 
-    print(">> " + function + ":")
-
 def function(func):
     print(">> " + func + ":")
 
