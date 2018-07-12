@@ -63,3 +63,6 @@ prime = 'Serve the public trust.\nProtect the innocent.\nUpload the law.'
 print(prime)
 dot_star = re.compile(r'.*', re.DOTALL)
 print(dot_star.search(prime))
+
+sep()
+print("We can do case insensitive matching with 're.IGNORECASE', 're.I'")
