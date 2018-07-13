@@ -52,3 +52,11 @@ sep('Check to see if file with os.path.isfile()')
 sep('Check to see if directory with os.path.isdir()')
 
 sep('Check size in bytes with os.path.getsize()')
+print('/mnt/c/windows/system32/calc.exe')
+print(os.path.getsize('/mnt/c/windows/system32/calc.exe'))
+
+sep('List the files and folders within a dir with os.listdir()')
+print("os.listdir('/home/x3830s/github/Self-Study')")
+print(os.listdir('/home/x3830s/github/Self-Study'))
+
+sep('Create new folders os.makedirs()')
