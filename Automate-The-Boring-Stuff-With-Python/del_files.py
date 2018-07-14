@@ -23,4 +23,4 @@ sep("Delete a single file with os.unlink('filename')")
 sep("Delete a directory with os.rmdir('directory')")
 function('This will not delete if the dir is not empty')
 
-sep("Delete a directory that is not empty shutil.rmtree('directory')")
+sep("Delete a directory and all of its files shutil.rmtree('directory')")
